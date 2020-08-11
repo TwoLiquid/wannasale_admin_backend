@@ -1,0 +1,21 @@
+table.dataTable thead .sorting {
+  background-image: url("../img/datatables/sort_both.png") !important;
+}
+table.dataTable thead .sorting_asc {
+  background-image: url("../img/datatables/sort_asc.png") !important;
+}
+table.dataTable thead .sorting_desc {
+  background-image: url("../img/datatables/sort_desc.png") !important;
+}
+table.dataTable thead .sorting_asc_disabled {
+  background-image: url("../img/datatables/sort_asc_disabled.png") !important;
+}
+table.dataTable thead .sorting_desc_disabled {
+  background-image: url("../img/datatables/sort_desc_disabled.png") !important;
+}
+.iti-flag {
+  background-image: url("../img/intl-tel-input/flags.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .iti-flag {background-image: url("../img/intl-tel-input/flags@2x.png");}
+}

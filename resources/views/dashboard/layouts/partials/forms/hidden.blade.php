@@ -1,0 +1,1 @@
+<input {{ isset($id) ? 'id=' . $id : '' }} name="{{ $name or '' }}" value="{{ $value or '' }}" type="hidden" {{ isset($required) && $required ? 'required' : '' }} />

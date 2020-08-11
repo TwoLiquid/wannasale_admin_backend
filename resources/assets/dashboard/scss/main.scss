@@ -1,0 +1,44 @@
+//--------------------------------------------------------------------------
+// Dashboard styles master file
+
+// Overwrite FontAwesome vars
+$fa-font-path: "../fonts/font-awesome" !default;
+
+// FontAwesome
+@import "../plugins/font-awesome/scss/font-awesome";
+
+// Pages-Icons font
+@import "pages-icons";
+
+//-----------------------------------
+// Pages Theme
+
+// Color functions
+@import "color";
+
+// Import theme Vars
+@import "themes/light/var";
+
+// Overwrite Pages vars
+$additional-font-family: "Roboto";
+$base-img-url: "../img";
+$assets-url: "../";
+
+// Mixins tools
+@import "mixins";
+
+// Includes of Modules
+@import "modules";
+
+// Responsive Util
+@import "responsive";
+
+// Theme styles
+@import "themes/light/custom";
+//-----------------------------------
+
+// Overwrite internal image paths of packages
+@import "path_overwrites";
+
+// Custom styles
+@import "custom";
